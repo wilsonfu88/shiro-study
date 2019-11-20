@@ -56,6 +56,7 @@ public class ShiroConfig {
         //匿名访问路径
         map.put("/test","anon");
         map.put("/test/*","anon");
+        map.put("/book/*","anon");
         //登录
         shiroFilterFactoryBean.setLoginUrl("/login");
         //首页
